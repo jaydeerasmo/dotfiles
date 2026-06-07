@@ -6,7 +6,7 @@ return {
     "nvim-tree/nvim-web-devicons",
   },
   keys = {
-	{"<leader>f", "<cmd>NvimTreeToggle<cr>", desc = "Toggle File Tree"}	
+	{"<leader>t", "<cmd>NvimTreeToggle<cr>", desc = "Toggle File Tree"}	
   },
   config = function()
     require("nvim-tree").setup({
